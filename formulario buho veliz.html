@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="" content="">
+<link rel="stylesheet" href="buho registro.css">
+<script src="registro buho.js"></script>
+<title>Formulario de Registro Buho</title>
+</head> 
+<body>
+    <section class="form-register" >
+        <form>
+            <h1 class="titulo">Formulario Buho</h1>
+            <label for="name">NOMBRE</label>
+            <input class="ingresarDatos" type="text" id="name_1" placeholder="Ingrese su Nombre" onkeypress="return sololetras(event)" onpaste="return false">
+            <label for="email">CORREO</label>
+            <input class="ingresarDatos" type="email" id="email_1" placeholder="example@gmail.com">
+            <label for="password">NÚMERO RANDOM</label>
+            <input class="ingresarDatos" class="text-aleatorio" type="text" id="numeroAleatorio" value="" readonly>
+            <button class="button" type="submit"> submit </button>
+           
+    </form>
+    </section>
+</body>
+</html>
